@@ -1,0 +1,4 @@
+Запустите терминал, создайте, активируйте виртуальное окружение и обновите пакетный менеджер pip:
+python -m venv venv
+source venv/Scripts/activate
+python -m pip install --upgrade pip
