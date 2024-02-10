@@ -12,3 +12,9 @@ class ColumnIndexErorr(IndexError):
 class ValErr(ValueError):
     def __str__(self): 
         return 'Буквы вводить нельзя. Только числа.'
+   
+
+class CellOccupiedError(Exception):
+
+    def __str__(self):
+        return 'Попытка изменить занятую ячейку'
